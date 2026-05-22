@@ -1,4 +1,4 @@
-## 📌 Overview
+## Overview
 
 This repository contains the full production source code and experimental framework for the diploma thesis: 
 **"Development and detection of fraudulent scam projects in DeFi blockchain systems"** 
@@ -22,7 +22,7 @@ An automated, high-throughput security pipeline designed to intercept pending me
 
 ---
 
-## 🛠️ Key Features
+## Key Features
 
 * **Mempool Interception:** Asynchronous scanning of pending transaction streams via distributed JSON-RPC filters before block finality.
 * **Static Bytecode Parsing:** Automated signature matching across compiled EVM bytecode arrays to isolate hidden mint vectors, arbitrary ownership mutations, and proxy flaws.
@@ -32,7 +32,7 @@ An automated, high-throughput security pipeline designed to intercept pending me
 
 ---
 
-## 📐 System Architecture
+## System Architecture
 
 The platform implements a decoupled, 8-layer processing framework to isolate network data ingestion from local verification engines, ensuring low latency and fault tolerance.
 
@@ -50,7 +50,7 @@ The platform implements a decoupled, 8-layer processing framework to isolate net
 ▼
 [ Representation Layer ] ──> [ Asynchronous GUI Dashboard ] ──> [ PDF Audit Report ]
 
-## 📊 Performance & Validation Metrics
+## Performance & Validation Metrics
 
 The system was stress-tested against an empirical mainnet dataset consisting of **500+ active smart contracts** across major EVM layers (Ethereum, Binance Smart Chain, and Arbitrum L2).
 
@@ -66,7 +66,7 @@ The system was stress-tested against an empirical mainnet dataset consisting of 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * Python 3.12.x
@@ -93,7 +93,7 @@ The system was stress-tested against an empirical mainnet dataset consisting of 
   python main.py
 
 
-📦 Tech Stack
+Tech Stack
 Core Engine: Python 3.12
 
 Network RPC Routing: web3.py (v6.10), requests (v2.31)
