@@ -90,16 +90,5 @@ The system was stress-tested against an empirical mainnet dataset consisting of 
 
 4. Run the application GUI terminal:
   ```bash
-  python main.py
+  python app.py
 
-
-Tech Stack
-Core Engine: Python 3.12
-
-Network RPC Routing: web3.py (v6.10), requests (v2.31)
-
-Mathematical Operations: numpy (v1.26)
-
-User Interface: CustomTkinter
-
-Layout Compilation: fpdf2 (v2.7), Pillow (v10.2)
